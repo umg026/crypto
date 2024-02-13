@@ -1,0 +1,58 @@
+.ex-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.name,.price,.rank{
+    width: 7rem;
+}
+
+.btns button{
+    border: none;
+    margin-top: 60px;
+    width: 5rem;
+    height: 2rem;
+    text-transform: uppercase;
+    background-color: orange;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+.btns{
+    margin-left: 10rem;
+}
+.main{
+    margin-top: 620px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        margin-top: 550px;
+    }
+    .image img{
+      height: 50px;
+      margin-left: 40px;
+      margin-right: 20px;
+    }
+      .name{
+         font-size: 15px;
+         width: 10rem;
+      }
+      .price{
+        font-size: 15px;
+        width:  10rem;
+      }
+      .rank{
+       font-size: 15px;
+      }
+      .ex-cards{
+          display: flex;
+          justify-content: space-between;
+      }
+      
+  
+  }
